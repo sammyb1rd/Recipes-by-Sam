@@ -1,0 +1,16 @@
+/* Styles for index.html for Recipes-by-Sam */
+
+.header-main {
+    color: purple;
+    background-color: hsl(225, 73%, 57%, 0.3);
+}
+
+.header-two {
+    color:royalblue;
+    background-color: rgb(128, 0, 128, 0.3);
+}
+
+.welcome-image {
+    height: auto;
+    width: 400px;
+}
