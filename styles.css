@@ -1,16 +1,48 @@
 /* Styles for index.html for Recipes-by-Sam */
 
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #CCCCFF;
+    border: red;
+    border: 2px solid red;
+
+}
+.hover:focus {
+    background-color: blue;
+}
+
 .header-main {
-    color: purple;
+    color: black;
     background-color: hsl(225, 73%, 57%, 0.3);
+    text-align: center;
 }
 
 .header-two {
     color:royalblue;
     background-color: rgb(128, 0, 128, 0.3);
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
 }
 
 .welcome-image {
-    height: auto;
-    width: 400px;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.recipes {
+    display:list-item;
+    background-color: hsl(240, 82%, 67%);
+
+}
+
+.p1 {
+    color: red;
+    background-color: yellow;
+    
 }
